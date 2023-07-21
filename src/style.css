@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.forBackground {
+  background-color: #121D2D;
+}
+
+.forQuery
+{
+  background-color: #F2F5FB;
+}
+
+.forFooter{
+  color:#929DAC;
+}
