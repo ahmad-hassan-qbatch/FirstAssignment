@@ -1,14 +1,20 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["src/App.js","src/Navbar.js","src/Box.js","src/BeforeFooter.js","src/Footer.js"],
-  theme: {
-    margin: {
-       '1/4': '15%',
-       '1/2': '5%',
-       '3/4': '25%',
-      },
-    extend: {},
+export const content = ["./src/**/*.{html,js}"];
+export const theme = {
+  margin: {
+    "1/4": "15%",
+    "1/2": "5%",
+    "3/4": "25%",
   },
-  plugins: [],
-}
-
+  extend: {
+    colors: {
+      background: "#0d1d2d",
+      demoSecion:"#f2f5fb",
+      textColor:"#929dac",
+      demoSectionText:"#626E7E",
+      cardNoBackground:"#3E87F6",
+      cardBorderColor:"#29394B"
+    },
+  },
+};
+export const plugins = [];

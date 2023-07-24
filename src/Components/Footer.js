@@ -1,43 +1,43 @@
-import logo from "../nav.png";
+import logo from "../Images/nav.png";
+import React from "react";
 
 export const Footer = () => {
   return (
-    <div class="mx-1/4 p-8">
-      <div class="grid grid-cols-6 gap-2 text-sm">
-        <div class="col-span-2">
-          <img src={logo} class="h-8 mr-3" alt="Flowbite Logo"></img>
-          <p class="text-md font-bold">The smart way to start you next idea.</p>
+    <div className="mx-1/4 p-8">
+      <div className="grid grid-cols-6 gap-6" style={{fontSize:"12px"}}>
+        <div className="col-span-2">
+          <img src={logo} className="h-8 mr-3" alt="Flowbite Logo"></img>
+          <p className="text-md font-bold">The smart way to start you next idea.</p>
         </div>
-        <div class="forFooter" >
-          <p class="font-bold text-black">How it works</p>
-          <p>Overview</p>
-          <p>Pricing</p>
-          <p>Service Area</p>
+        <div className="text-textColor" >
+          <p className="font-bold text-black p-1">How it works</p>
+          <p className="p-1">Overview</p>
+          <p className="p-1">Pricing</p>
+          <p className="p-1">Service Area</p>
         </div>
-        <div class="forFooter" >
-          <p class="font-bold text-black">Resources</p>
-          <p>Customer Stories</p>
-          <p>Knowledge Base</p>
-          <p>Contact Us</p>
+        <div className="text-textColor" >
+          <p className="font-bold text-black p-1">Resources</p>
+          <p className="p-1">Customer Stories</p>
+          <p className="p-1">Knowledge Base</p>
+          <p className="p-1">Contact Us</p>
         </div>
-        <div class="forFooter" >
-          <p class="font-bold text-black">Products</p>
-          <p>Corporate Partner</p>
-          <p>Secure Identity</p>
-          <p>Legal Help</p>
-          <p>First Capital</p>
+        <div className="text-textColor" >
+          <p className="font-bold text-black p-1">Products</p>
+          <p className="p-1">Corporate Partner</p>
+          <p className="p-1">Secure Identity</p>
+          <p className="p-1">Legal Help</p>
+          <p className="p-1">First Capital</p>
         </div>
-        <div class="forFooter" >
-          <p class="font-bold text-black">Company</p>
-          <p>About Us</p>
-          <p>Careers</p>
-          <p>Term of Use</p>
+        <div className="text-textColor" >
+          <p className="font-bold text-black p-1">Company</p>
+          <p className="p-1">About Us</p>
+          <p className="p-1">Careers</p>
+          <p className="p-1">Term of Use</p>
         </div>
       </div>
     </div>
   );
 };
 
-StyleSheet = { color:"#929DAC"}
 
 export default Footer;
